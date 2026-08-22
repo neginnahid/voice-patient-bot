@@ -1,0 +1,17 @@
+Call: 08_dob-verification
+CallSid: CA3e2d9f6da0978224f0c8e30ccd881293
+------------------------------------------------------------
+[00:15] AGENT: This call may be recorded for quality and training purposes.
+[00:22] AGENT: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[00:22] PATIENT: Hi, this is Marcus Delgado, and I’m calling to re-test that my date of birth is recorded correctly. It’s November thirtieth, nineteen seventy-eight.
+[00:37] PATIENT: No, this is Marcus Delgado. Sorry, say again what you need?
+[00:38] AGENT: I see you're calling from the number we have on file. Am I speaking with data?
+[00:48] AGENT: Please provide your full name and date of birth so I can verify your information.
+[00:49] PATIENT: Okay, let me say that clearly for you.
+[00:49] PATIENT: My full name is Marcus Delgado. My date of birth is November thirtieth, nineteen seventy-eight.
+[01:08] AGENT: Just to confirm, I have your name as Marcus Delgado and your date of birth as November 30th, 1978. Is that correct?
+[01:09] PATIENT: Yeah, that matches what I gave—thanks. Um, can you read back the date of birth you have for me?
+[01:22] AGENT: I have your date of birth as November 30th, 1978. Is that correct?
+[01:22] PATIENT: Okay, great, thanks so much for confirming. Bye.
+[01:30] PATIENT: Bye.
+[01:31] AGENT: Take care. Bye.

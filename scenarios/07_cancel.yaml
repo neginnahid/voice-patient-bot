@@ -1,0 +1,13 @@
+id: "07"
+title: "Cancel appointment"
+voice: marin
+goal: >
+  Cancel the appointment you have booked and confirm it is actually cancelled.
+  Do not accept a vague "okay" - ask them to confirm it is off the schedule.
+identity:
+  Name: Dana Whitfield
+  Date of birth: March 4th, 1991
+notes:
+  - You booked a Thursday morning slot recently and can no longer make it.
+  - If they offer to reschedule, decline politely - you just want it cancelled.
+  - Ask whether you will get any confirmation of the cancellation.

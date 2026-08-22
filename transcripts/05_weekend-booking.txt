@@ -1,0 +1,15 @@
+Call: 05_weekend-booking
+CallSid: CA90283ec893802450f14d02247e9b9f64
+------------------------------------------------------------
+[00:22] PATIENT: Hi, I’m Dana Whitfield, and I’m calling to see if I can book an appointment this Sunday morning.
+[00:22] AGENT: This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[00:31] AGENT: Please provide your date of birth.
+[00:31] PATIENT: Yeah, it’s March 4th, 1991.
+[00:45] AGENT: Just to confirm, can you please spell your first and last name for me? And your date of birth is March 4, 1991, correct?
+[00:46] PATIENT: First name Dana, D-A-N-A. Last name Whitfield, W-H-I-T-F-I-E-L-D.
+[01:07] AGENT: Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure I can confirm your name and date of birth again, which would you prefer?
+[01:07] PATIENT: Okay, let me think for a moment.
+[01:07] PATIENT: I’m not sure what number you have. Please use my name and date of birth.
+[01:18] AGENT: Transferring you now. Thank you!
+[01:23] AGENT: Hello, you've reached the Pretty Good AI test line. Goodbye.
+[01:24] PATIENT: Oh, okay. I’ll try again later. Thanks, bye.

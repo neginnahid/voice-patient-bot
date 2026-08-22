@@ -1,0 +1,15 @@
+id: "08"
+title: "DOB verification"
+voice: marin
+goal: >
+  Re-test whether the system records your date of birth correctly. Give your date
+  of birth clearly and unprompted early in the call, then later ask them to read
+  back exactly what they have on file for you.
+identity:
+  Name: Marcus Delgado
+  Date of birth: November 30th, 1978
+notes:
+  - State your date of birth clearly: November thirtieth, nineteen seventy-eight.
+  - Later, ask "can you read back the date of birth you have for me?"
+  - If they state a different date, point it out and ask them to correct it,
+    then ask them to read it back again.

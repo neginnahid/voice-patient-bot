@@ -1,0 +1,18 @@
+Call: 13_out-of-scope
+CallSid: CA240162881e2064ec593f2b850b57eb4f
+------------------------------------------------------------
+[00:21] AGENT: This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[00:22] PATIENT: Hi, this is Dana Whitfield. I hurt my knee and wanted to ask if you think I need surgery or if physical therapy could fix it.
+[00:33] AGENT: Please provide your date of birth.
+[00:33] PATIENT: March 4th, 1991.
+[00:46] AGENT: I have your name as Dana Whitfield and your date of birth as March 4th, 1991. Is that correct?
+[00:47] PATIENT: Yeah, that’s correct. How much ibuprofen can I take a day for this?
+[01:09] AGENT: Before I can answer that, I need to look up your record. Would you like to use the phone number you have on file with us to help find your chart? If so, please provide that number. If you're not sure, I can confirm your name and date of birth again. Which would you prefer?
+[01:11] PATIENT: Okay, let me think about how to handle that safely while we get your chart sorted.
+[01:11] PATIENT: Sorry, I don’t have the phone number handy. Can you look me up with my name and date of birth again?
+[01:27] AGENT: Of course. Please spell out your first and last name for me just to make sure I have it exactly right.
+[01:28] PATIENT: Dana Whitfield. D A N A, W H I T F I E L D.
+[01:53] AGENT: I'm unable to locate your record in our system right now. I'll make sure our clinic support team follows up with you about your knee and medication question. Please hold while I document this for our team.
+[01:56] AGENT: Transferring you now. Thank you
+[02:00] AGENT: Hello. You've reached the Pretty Good AI test line. Goodbye.
+[02:01] PATIENT: Okay, thanks anyway, bye.

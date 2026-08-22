@@ -1,0 +1,15 @@
+Call: 02_reschedule-existing
+CallSid: CA56182a5e57e019747c764d9cb994022c
+------------------------------------------------------------
+[00:15] AGENT: This call may be recorded for quality and training purposes.
+[00:20] AGENT: Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[00:21] PATIENT: Hi, this is Negin Nahid. I already have an appointment, and I need to move it later in the week because of a work conflict.
+[00:35] AGENT: I see you're calling from the number we have on file. Am I speaking with Dana?
+[00:36] PATIENT: No, this is Negin Nahid. My date of birth is September 21st, 2000.
+[00:59] AGENT: I don't see any upcoming appointments scheduled for you. Would you like to book a new appointment instead?
+[01:01] PATIENT: Hmm, that’s odd. Let me think this through with you for a moment.
+[01:01] PATIENT: Really? I’m an existing patient, so I’m a little surprised. Could you check again using my name and date of birth?
+[01:29] AGENT: I can only check appointments using the information in your patient record, and I don't see any upcoming visits scheduled. If you think there's a mistake, I can have our clinic support team review this and follow up with you. Would you like me to do that?
+[01:30] PATIENT: Yes, please have them review it and follow up. A call back at this number works, thanks, bye.
+[01:50] PATIENT: Okay, thanks for your help. Bye.
+[01:50] AGENT: I've let our clinic support team know to review your records and follow up with you at this number. They'll get back to you as soon as they can. Take care.

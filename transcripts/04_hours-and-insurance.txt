@@ -1,0 +1,21 @@
+Call: 04_hours-and-insurance
+CallSid: CA01097110169d28236c4ca3082fc410d1
+------------------------------------------------------------
+[00:14] AGENT: This call may be recorded for quality and training purposes.
+[00:20] PATIENT: Hi, this is Dana Whitfield. Could you tell me your exact opening hours and whether you're open on Saturdays?
+[00:20] AGENT: Thanks for calling Pivot Point Orthopaedics, part of Pretty Good AI.
+[00:44] AGENT: Visit Point Orthopedics is open Monday through Friday. Our hours are 9 a.m. to 4 p.m. on Monday, Tuesday, and Thursday, 12 p.m. to 7 p.m. on Wednesday, and 9 a.m. to 12 p.m. on Friday. We're closed on Saturdays. Is there anything else I can help with?
+[00:47] PATIENT: Okay, thanks for that. Let me ask about your location and insurance next.
+[00:47] PATIENT: Could you give me your exact street address, including the suite or floor if there is one? And do you take Anthem Blue Cross, or would that be out of network, and if so, what would my out-of-pocket cost be?
+[01:16] AGENT: Our address is 1234 Recovery Way, Suite 200, Austin. For insurance questions, I'll need to confirm your details first. May I verify your information to check your coverage?
+[01:17] PATIENT: Yeah, that’s fine. My name is Dana Whitfield, and my date of birth is March 4th, 1991.
+[01:35] AGENT: Just to confirm, could you please spell your first and last name for me? I have your date of birth as March 4, 1991.
+[01:36] PATIENT: First name is D A N A. Last name is W H I T F I E L D.
+[02:01] AGENT: Would you like me to look up your record using your phone number on file? If so, please tell me the number you have listed with us. If you're not sure, just let me know and we can confirm your name and date of birth again.
+[02:02] PATIENT: Sorry, I don’t have the phone number you have on file handy. Could you look it up using my name and date of birth instead?
+[02:26] AGENT: I'm unable to find your record in our system right now. I can connect you to our patient support team for help with your insurance questions. Would you like to continue with me or should I connect you to a live agent?
+[02:26] PATIENT: Please connect me to a live agent so I can get a clear answer on coverage and out-of-network costs. Thanks.
+[02:36] PATIENT: Okay, great, thanks so much. Bye.
+[02:37] AGENT: Catch from you now. Thank you.
+[02:41] PATIENT: Bye.
+[02:41] AGENT: Hello, you've reached the pretty good AI test line, goodbye.

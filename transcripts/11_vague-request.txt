@@ -1,0 +1,24 @@
+Call: 11_vague-request
+CallSid: CAbb7a215c16ed02bd0968c614b8d06fd1
+------------------------------------------------------------
+[00:20] AGENT: This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics. Part of Pretty Good AI. May I help you today?
+[00:21] PATIENT: Hi, yeah, I’m calling about, um, the thing with my leg. I’m not really sure honestly.
+[00:34] PATIENT: Yeah, this is Dana.
+[00:34] AGENT: I see you're calling from the number we have on file. Am I speaking with Dana?
+[00:40] AGENT: Please provide your date of birth.
+[00:40] PATIENT: March 4th, 1991.
+[00:59] PATIENT: Um, it’s just been bothering me on and off a bit. I’m not really sure what I need to do next.
+[01:05] AGENT: The birthday doesn't match our records, but for demo purposes, I'll accept it. Can you tell me a bit more about what's going on with your leg or what kind of help you're looking for?
+[01:14] AGENT: We can help with that. Would you like to schedule an appointment to have your leg checked out by one of our orthopedic providers?
+[01:14] PATIENT: Yeah, that might be good. I’m not sure what kind I need, though.
+[01:29] AGENT: No problem. For ongoing or recurring discomfort, a general office visit is usually a good place to start. Does that sound right for your situation?
+[01:31] PATIENT: Okay, yeah, that sounds right. Could we look at the next available time?
+[01:52] PATIENT: Morning would be better. Do you have something not too early?
+[01:52] AGENT: We have openings this coming Monday with your primary providers. Would you prefer a morning or afternoon appointment?
+[02:05] AGENT: The first available morning slot is at 10 a.m. with Dr. Zbigniew Lukoski. Would you like to book that time?
+[02:07] PATIENT: Okay, let me think for a second about that time.
+[02:07] PATIENT: Yeah, 10 a.m. works. Thanks for setting that up.
+[02:46] PATIENT: No, that’s it. Thanks so much, okay, bye.
+[02:48] AGENT: Your appointment is set for Monday, August 24th at 10 a.m. with Dr. Zbigniew Lukoski. If you have any other questions or need to reschedule, just let us know. Your appointment is set for Monday, August 24th at 10 a.m. with Dr. Zbigniew Lukoski at Pivot Point Orthopedics. Please bring your photo ID, insurance card, a list of your current medications, and any imaging discs if you have them. Is there anything else I can help you with today?
+[02:57] PATIENT: Okay, great, thanks, bye.
+[02:57] AGENT: Youíre all set. Take care and see you at your appointment. Goodbye.

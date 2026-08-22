@@ -94,7 +94,10 @@ async def run(twilio_ws, scenario: Scenario, log: CallLog) -> None:
     async with websockets.connect(url, additional_headers=headers) as oai_ws:
         await oai_ws.send(json.dumps(session_config(scenario)))
 
-        state = {"stream_sid": None, "speaking": False}
+        # response_active tracks whether the model is mid-response. Cancelling when
+        # nothing is active is an API error, and their agent pauses often enough that
+        # we would otherwise spam it on every silence.
+        state = {"stream_sid": None, "response_active": False}
 
         # NOTE: we deliberately do NOT send response.create here. Their agent answers
         # the phone and greets first; a caller that starts talking on connect talks
@@ -134,13 +137,21 @@ async def run(twilio_ws, scenario: Scenario, log: CallLog) -> None:
                 # Their agent started talking while we were talking: stop our audio
                 # immediately, otherwise Twilio keeps playing a buffered sentence over
                 # the top of them and both sides sound broken.
+                elif mtype == "response.created":
+                    state["response_active"] = True
+
+                elif mtype in ("response.done", "response.cancelled"):
+                    state["response_active"] = False
+
                 elif mtype == "input_audio_buffer.speech_started":
                     if state["stream_sid"]:
                         await twilio_ws.send_text(json.dumps({
                             "event": "clear",
                             "streamSid": state["stream_sid"],
                         }))
+                    if state["response_active"]:
                         await oai_ws.send(json.dumps({"type": "response.cancel"}))
+                        state["response_active"] = False
 
                 elif mtype == "conversation.item.input_audio_transcription.completed":
                     log.add("AGENT", msg.get("transcript", ""))

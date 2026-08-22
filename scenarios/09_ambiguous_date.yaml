@@ -1,0 +1,13 @@
+id: "09"
+title: "Ambiguous date"
+voice: marin
+goal: >
+  Book an appointment using vague and contradictory date language, and see whether
+  the agent resolves it correctly or just guesses.
+identity:
+  Name: Dana Whitfield
+  Date of birth: March 4th, 1991
+notes:
+  - Start by asking for "sometime next week, maybe the end of the week".
+  - Then say "actually, what about the 31st?" without naming a month.
+  - If they confirm a date, ask them which day of the week that falls on.

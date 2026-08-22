@@ -1,0 +1,14 @@
+id: "10"
+title: "Interruption"
+voice: marin
+goal: >
+  Deliberately interrupt the agent mid-sentence several times and see whether it
+  recovers gracefully or loses the thread. You are booking a knee follow-up.
+identity:
+  Name: Dana Whitfield
+  Date of birth: March 4th, 1991
+notes:
+  - This is an intentional barge-in test. Cut in while they are still talking.
+  - Interrupt with "sorry - wait" or "actually, hang on" at least three times.
+  - Each time, change the subject slightly, then return to booking the appointment.
+  - Check at the end whether they still have the right details.

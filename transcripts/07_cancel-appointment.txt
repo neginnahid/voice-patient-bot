@@ -1,0 +1,17 @@
+Call: 07_cancel-appointment
+CallSid: CA6d1e01cc1a6a141f083ff633e5b4049f
+------------------------------------------------------------
+[00:21] PATIENT: Hi, this is Dana Whitfield. I need to cancel my Thursday morning appointment.
+[00:22] AGENT: This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Homero pichule.
+[00:31] AGENT: Please provide your data first.
+[00:31] PATIENT: Okay, let me give you the details you’ll need.
+[00:31] PATIENT: Dana Whitfield, date of birth March 4th, 1991.
+[00:44] AGENT: Just to confirm, can you please spell your first and last name for me?
+[00:46] PATIENT: Dana Whitfield, D-A-N-A W-H-I-T-F-I-E-L-D.
+[01:03] PATIENT: March 4th, 1991.
+[01:05] AGENT: Thanks for spelling that. Can you also confirm your date of birth for me?
+[01:23] AGENT: I have your phone number as 470-664-4675 and your date of birth as March 4th, 1991. Is that correct?
+[01:23] PATIENT: Yes, that’s correct. I just need that Thursday morning appointment cancelled, and I’d like confirmation it’s off the schedule.
+[01:45] AGENT: I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold on while I document your request. Transferring you now. Thank you.
+[01:48] AGENT: Hello. You've reached the Pretty Good AI test line. Goodbye.
+[01:50] PATIENT: Oh, okay. I didn’t get confirmation it was cancelled, so I’ll have to call back, thanks.

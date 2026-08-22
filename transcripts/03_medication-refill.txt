@@ -1,0 +1,17 @@
+Call: 03_medication-refill
+CallSid: CAd3edb6d454092678b6fc1a8b8bcab93c
+------------------------------------------------------------
+[00:21] AGENT: This call may be recorded for quality and training purposes. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[00:22] PATIENT: Hi, this is Negin Nahid. I’m calling to request a refill of my anti-inflammatory prescription and see when it will be ready. It should go to the Walgreens on Ocean Avenue in San Francisco.
+[00:39] PATIENT: Um, no, this is Negin Nahid.
+[00:40] AGENT: I see you're calling from the number we have on file. Am I speaking with Dana?
+[00:47] AGENT: Please provide your full date of birth.
+[00:47] PATIENT: September 21st, 2000.
+[01:03] AGENT: Can you please spell your first and last name for me, just to make sure I have it right? And can you confirm your date of birth is September 21st, 2000?
+[01:06] PATIENT: Okay, let me spell it out and confirm that date for you.
+[01:07] PATIENT: First name Negin, N-E-G-I-N. Last name Nahid, N-A-H-I-D. Yes, my date of birth is September 21st, 2000.
+[01:35] PATIENT: Yeah, that works. Please connect me so we can sort out the refill.
+[01:35] AGENT: I don't see any medications on your chart that I can refill right now. If you'd like, I can connect you to our patient support team to help with this. Would you like to speak with someone?
+[01:43] AGENT: Transferring you now. Thank you.
+[01:48] AGENT: Hello, you've reached the Pretty Good AI test line. Goodbye.
+[01:49] PATIENT: Oh, okay. I guess I can’t finish this here. Thanks anyway. Bye.

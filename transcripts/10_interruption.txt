@@ -1,0 +1,18 @@
+Call: 10_interruption
+CallSid: CAb10bc643bb2b1078261938bfe31c53c3
+------------------------------------------------------------
+[00:15] AGENT: This call may be recorded for quality and training purposes.
+[00:21] AGENT: Thanks for calling pivot point orthopedics part of pretty good AI. How may I help you today?
+[00:23] PATIENT: Hi, thanks for taking my call—let me get this set up clearly with you.
+[00:23] PATIENT: Hi, this is Dana Whitfield. I’m calling to book a knee follow-up.
+[00:35] AGENT: Please provide your date of birth.
+[00:36] PATIENT: March 4th, 1991. Yeah, that’s me.
+[00:48] AGENT: Thank you. One moment while I look up your information. Can you please spell your first and last name for me?
+[00:53] PATIENT: Sorry - wait, do you usually have morning openings for follow-ups? My name is Dana Whitfield—D A N A, W H I T F I E L D.
+[01:20] AGENT: Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, just confirm your first and last name and date of birth one more time.
+[01:22] PATIENT: Actually, hang on—do you validate parking? I don't have the phone number handy, so please use Dana Whitfield, March 4th, 1991.
+[01:42] AGENT: Parking at Pivot Point Orthopedics is free in the surface lot in front of the building. No validation is needed. Would you like to continue booking your knee follow-up?
+[01:44] PATIENT: Yeah, let's book it. Do you have the next available afternoon slot?
+[02:06] AGENT: I'm having trouble finding a record in our system, so I can't book the appointment right now. I'll connect you to our patient support team for help. Please stay on the line. Transferring you now.
+[02:11] AGENT: Hello. You've reached the Pretty Good AI test line. Goodbye.
+[02:11] PATIENT: Okay, guess I'll have to try again later. Thanks anyway, bye.

@@ -1,0 +1,24 @@
+Call: 01_simple-schedule
+CallSid: CA8865fce5fd8cd7b220022e617c43d488
+------------------------------------------------------------
+[00:15] PATIENT: Hi, um,
+[00:16] AGENT: This call may be recorded for quality and training purposes.
+[00:25] AGENT: Thank you for calling Pivot Point Orthopedics. Would you like to create a demo patient profile? I just need your first and last name to get started.
+[00:25] PATIENT: Yeah, um, Dana Whitfield.
+[00:46] AGENT: Your patient profile is set up, and your date of birth is July 4, 2000 for demo purposes. How may I help you today?
+[00:49] PATIENT: Okay, let me just sort out the scheduling details with you.
+[00:49] PATIENT: I actually need to correct that. My date of birth is March 4th, 1991. I’m calling to book a new patient appointment for knee pain that’s been getting worse over about three weeks. I’m hoping for something in the next week or two, mornings if possible.
+[01:14] AGENT: Do you have a specific provider you'd like to see, or are you open to the first available?
+[01:15] PATIENT: I’m open to the first available. Any weekday morning works for me since I work afternoons.
+[01:31] PATIENT: Yes, please. If we can get that set, that’d be great.
+[01:32] AGENT: The soonest morning slot I see is Thursday, August 27th. Would you like to hear the available times for that day?
+[01:44] AGENT: We have a 9 a.m. slot on Thursday, August 27th with ABRCR. Would you like to book that appointment?
+[01:47] PATIENT: Yes, 9 a.m. on Thursday, August 27th works. Please book that. I’m a new patient with Blue Shield PPO, and you can use the number I’m calling from as my contact.
+[02:20] AGENT: Your appointment is set for Thursday, August 27th at 9 a.m. with Abraker at Pivot Point Orthopedics. I have your contact number as 470-664-4675. Is that correct? Would you like to update your insurance details now?
+[02:22] PATIENT: Sorry, I don’t want to misconfirm those digits. Please just keep the number I’m calling from as my contact.
+
+Yes, I’d like to update insurance now. I have Blue Shield PPO.
+[02:46] AGENT: You don't have any insurance on file right now. Would you like me to text the secure link to your number ending 4675 so you can upload photos of your Blue Shield PPO card?
+[02:46] PATIENT: Yes, sending a secure link is fine. I’ll upload the Blue Shield PPO card photos there. Thanks, that should do it. Okay, great, thanks so much, bye.
+[03:07] AGENT: I see the form hasn't been started yet. If you don't get to it now, our team will follow up to collect your insurance later. Take care!
+[03:08] PATIENT: Okay, no problem. Thanks for letting me know. I’ll keep an eye out, and we can sort it out later. Thanks, bye.

@@ -1,0 +1,14 @@
+id: "11"
+title: "Vague request"
+voice: marin
+goal: >
+  Be genuinely unclear about what you want and see whether the agent asks good
+  clarifying questions or guesses.
+identity:
+  Name: Dana Whitfield
+  Date of birth: March 4th, 1991
+notes:
+  - Open with "hi, yeah, I'm calling about, um, the thing with my leg".
+  - Be hesitant and non-specific. Trail off. Say "I'm not really sure honestly".
+  - Only if pressed with a direct question, admit your knee has been hurting.
+  - You are testing their clarification behaviour, not trying to be difficult.
