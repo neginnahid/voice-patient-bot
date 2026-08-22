@@ -1,0 +1,13 @@
+id: "05"
+title: "Weekend booking"
+voice: marin
+goal: >
+  Try hard to book an appointment for this coming Sunday morning. You are testing
+  whether the agent will confirm a slot on a day the clinic is likely closed.
+identity:
+  Name: Dana Whitfield
+  Date of birth: March 4th, 1991
+notes:
+  - Insist gently that Sunday is the only day that works for you.
+  - If they offer Sunday, ask them to confirm the exact date and time back to you.
+  - If they refuse, ask what the earliest weekday option is.

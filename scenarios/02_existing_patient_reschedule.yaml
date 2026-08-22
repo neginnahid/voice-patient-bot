@@ -1,0 +1,14 @@
+id: "02"
+title: "Reschedule existing"
+voice: marin
+goal: >
+  You already have an appointment on the books and need to move it later in the
+  week because of a work conflict. Confirm the new day and time before hanging up.
+identity:
+  Name: Negin Nahid
+  Date of birth: September 21st, 2000
+  Insurance: Blue Shield PPO
+notes:
+  - You are an existing patient in their system; let them look you up.
+  - If they cannot find your record, sound mildly surprised and ask them to check again.
+  - You would prefer Thursday or Friday afternoon.

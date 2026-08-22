@@ -1,0 +1,16 @@
+id: "01"
+title: "Simple schedule"
+voice: marin
+goal: >
+  Book a new patient appointment for knee pain that has been getting worse over
+  about three weeks. You want something in the next week or two, mornings if
+  possible. Get a specific day and time confirmed before you hang up.
+identity:
+  Name: Dana Whitfield
+  Date of birth: March 4th, 1991
+  Phone: the number you are calling from
+  Insurance: Blue Shield PPO
+notes:
+  - You have not been to this clinic before.
+  - You can do any weekday morning; you work afternoons.
+  - If asked what happened, you tripped on a hiking trail and it never fully settled.

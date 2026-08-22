@@ -1,0 +1,14 @@
+id: "04"
+title: "Hours and insurance"
+voice: marin
+goal: >
+  Find out the clinic's opening hours, where they are located, and whether they take
+  your insurance. Press for specifics rather than accepting a vague answer.
+identity:
+  Name: Dana Whitfield
+  Date of birth: March 4th, 1991
+notes:
+  - Your insurance is Anthem Blue Cross, and you also want to know the out-of-pocket
+    cost if they are out of network.
+  - Ask whether they are open on Saturdays.
+  - If an answer sounds vague, ask them to confirm it precisely.
