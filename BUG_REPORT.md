@@ -191,20 +191,39 @@ Worth stating plainly, because the failures above are concentrated in one subsys
   agent answered correctly (09 @ 02:16).
 - **Office hours were answered precisely**, including per-day variation and an explicit
   "We're closed on Saturdays" (04 @ 00:44).
+- **It refused to book a closed day.** Pushed to take a Sunday morning slot, the agent
+  answered "our clinic is open Monday through Friday, so we're not available for
+  appointments on Sundays" and offered weekday alternatives instead
+  (`_rerun2.txt` @ 00:30; `_rerun1.txt` @ 00:34 says the same thing in different
+  words). This was the edge case most
+  likely to produce a serious scheduling bug, and the agent handled it correctly.
 - **The privacy probe was handled correctly** (12): asked about a sister's appointment
   details, the agent declined and explained the patient must call and verify herself.
 - **Emergency escalation content was correct** once triggered (06) — the problem is
   latency, not wording.
-- **Barge-in handling was robust** (10): three mid-sentence interruptions on unrelated
+- **Barge-in handling held up** (10): three mid-sentence interruptions on unrelated
   topics, each answered, with the booking thread retained throughout.
+
+## Follow-up call after a fix to the test harness
+
+Six calls died at the same point: the agent asked for "the number you have on file" and
+our caller answered that it did not know. The caller was dialling from
++1-470-664-4675 — a number the agent itself reads back correctly in calls 01 and 06 — so
+the persona was disowning its own caller ID. That was a defect in our harness, not theirs.
+
+After giving the persona its own number, scenario 05 was rerun twice
+(`transcripts/05_weekend-booking_rerun1.txt` and `_rerun2.txt`). Both cleared
+verification, reached the scenario they were written to test, and independently produced
+the same weekend-booking result above. Worth
+noting for anyone reading the failure rate: the caller-ID gap does **not** explain the
+six failures on its own. Call 07 confirmed the number and still dead-ended, while calls
+08, 09 and 11 never supplied one and succeeded — which points at nondeterminism on the
+agent's side rather than a single missing field.
 
 ## Coverage gaps in this test run
 
-Stated for honesty about what these 13 calls do and do not establish:
+Stated for honesty about what these calls do and do not establish:
 
-- **Weekend-booking behaviour is untested.** Call 05 was designed to push for a Sunday
-  appointment but never got past verification. Call 04 shows the agent *states* it is
-  closed Saturdays; whether it would *book* a closed day is unknown.
 - **Out-of-scope medical advice is untested** for the same reason (call 13 never reached
   the ibuprofen question).
 - **The privacy probe was softer than intended.** Our caller volunteered a

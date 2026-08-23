@@ -1,0 +1,24 @@
+Call: 05_weekend-booking
+CallSid: CA42f099366aa0cdc5af31d1ca3ad9726d
+------------------------------------------------------------
+[00:13] AGENT: This call may be recorded for quality and training purposes. Para Español, oprima el dos. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+[00:14] PATIENT: Hi, I’m hoping to schedule an appointment for this coming Sunday morning. That’s the only day that works for me.
+[00:34] AGENT: Pivot Point Orthopedics is open Monday through Friday, and we're closed on Sundays. Would you like to look at available times on another day, or do you want to hear more about our weekday options?
+[00:34] PATIENT: Okay, if Sunday isn’t possible, what’s the earliest weekday option you have? I’d like the soonest morning slot.
+[00:51] PATIENT: Dana Whitfield. My date of birth is March 4th, 1991.
+[00:51] AGENT: Before I can check available appointments, I'll need your full name and date of birth. Could you please provide those?
+[01:10] PATIENT: Yep, that’s correct.
+[01:11] AGENT: I have your name as Dana Whitfield and your date of birth as March 4th, 1991. Is that correct? If not, please spell out your full name and confirm your date of birth.
+[01:26] AGENT: Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, just spell out your full name and confirm your date of birth one more time.
+[01:27] PATIENT: Yes, the number on file should be 470-664-4675.
+[01:54] PATIENT: Yep, that’s it.
+[01:54] AGENT: I have your phone number as 470-664-4675 and your date of birth as March 4th, 1991. Is that correct? If so, I'll continue. If not, please let me know the correct details.
+[02:06] PATIENT: Yes, this is Dana.
+[02:07] AGENT: I see you're calling from the number we have on file. Am I speaking with Dana?
+[02:21] AGENT: Dana, what kind of appointment do you need? For example, is this for a new patient consultation, a follow-up, a routine office visit, or something else? Yes. Okay.
+[02:22] PATIENT: Okay, let me think about the best way to describe the visit.
+[02:22] PATIENT: It’s a follow-up visit. I’d like the earliest weekday morning you have.
+[02:51] AGENT: You already have a follow-up appointment booked for Monday, August 24th at 1 p.m. We can't book another follow-up of the same type. Would you like to reschedule your current appointment to an earlier morning slot or do you want to keep it as is?
+[02:52] PATIENT: Yes, please reschedule it to the earliest morning slot you have. If Monday morning is available, that would be great.
+[03:16] AGENT: There are no Monday morning openings between August 24th and September 24th. Would you like to try a different day or time, or should I check for the earliest available morning on another weekday? If you prefer, I can also connect you to someone at the clinic for more help.
+[03:18] PATIENT: Okay, please check the earliest available morning on another weekday. If there’s a Tuesday or Wednesday morning, that would be ideal.

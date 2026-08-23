@@ -16,9 +16,24 @@ RECORDINGS = Path("recordings")
 TRANSCRIPTS = Path("transcripts")
 
 
+def _free_path(directory: Path, slug: str, suffix: str) -> Path:
+    """Never overwrite an existing call.
+
+    Rerunning a scenario used to clobber the original transcript and recording,
+    which quietly destroys the evidence a bug report cites. Reruns now land
+    alongside as _rerun1, _rerun2, and so on.
+    """
+    path = directory / f"{slug}{suffix}"
+    n = 0
+    while path.exists():
+        n += 1
+        path = directory / f"{slug}_rerun{n}{suffix}"
+    return path
+
+
 def write_transcript(log: CallLog, slug: str) -> Path:
     TRANSCRIPTS.mkdir(exist_ok=True)
-    path = TRANSCRIPTS / f"{slug}.txt"
+    path = _free_path(TRANSCRIPTS, slug, ".txt")
     lines = [f"Call: {slug}", f"CallSid: {log.call_sid}", "-" * 60]
     for turn in log.turns:
         stamp = time.strftime("%M:%S", time.gmtime(turn.at))
@@ -48,7 +63,7 @@ def fetch_recording(call_sid: str, slug: str, attempts: int = 12) -> Path | None
                 auth=auth, timeout=120, follow_redirects=True,
             )
             mp3.raise_for_status()
-            path = RECORDINGS / f"{slug}.mp3"
+            path = _free_path(RECORDINGS, slug, ".mp3")
             path.write_bytes(mp3.content)
             return path
         time.sleep(5)

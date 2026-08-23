@@ -14,6 +14,7 @@ line, **+1-805-439-8008**, which is hardcoded as the default in `src/config.py`.
 - **[BUG_REPORT.md](BUG_REPORT.md)** — 8 verified issues across 13 calls
 - **[ANALYSIS.md](ANALYSIS.md)** — automated triage pass, unverified candidates
 - **[transcripts/](transcripts/)** — timestamped, speaker-labelled, one file per call
+  (13 scenarios, plus one rerun after a fix to the caller persona)
 - **[recordings/](recordings/)** — dual-channel MP3, one file per call
 
 ## Setup
@@ -91,6 +92,7 @@ notes:
 | `tools/probe_realtime.py` | Resolves the accepted Realtime audio-format value |
 | `tools/probe_session.py` | Validates the full session config before spending a call |
 | `tools/run_batch.py` | Runs scenarios back to back |
+| `tools/show_persona.py` | Prints the prompt a scenario generates, without calling |
 | `python -m src.analyze` | Scores every transcript against a rubric into `ANALYSIS.md` |
 
 ## Cost
