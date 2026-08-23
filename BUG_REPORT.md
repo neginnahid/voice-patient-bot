@@ -20,6 +20,12 @@ the transcript clock now starts on the media-stream `start` event.)
 ended the same way: the agent could not verify the caller's identity, announced a
 transfer to the support team, and handed the call to a line that immediately hung up.
 
+(Call 06 is a judgement call: the caller's stated task — booking a knee follow-up —
+was never completed, but the agent stopped to redirect her to 911, which was the right
+thing to do. Counted as a completion here for that reason. The automated pass in
+[ANALYSIS.md](ANALYSIS.md) scored it as a failure, giving 5 of 13; either reading is
+defensible and the distinction does not change any finding below.)
+
 The single highest-impact issue is not any individual mistake — it is that the
 identity-verification step is both unreliable and unskippable, and the escape hatch
 behind it is broken. Nearly every unrelated capability (refills, insurance, cancelling,
