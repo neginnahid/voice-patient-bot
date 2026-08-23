@@ -169,7 +169,29 @@ information has to be given a third time.
 
 ---
 
-## BUG-08 — Full confirmation block spoken twice in a single turn
+## BUG-08 — Clinic address and booked provider are in different cities
+**Severity: Medium** · `recordings/04_hours-and-insurance.mp3` @ **00:52** (transcript @ 01:16) and
+`recordings/05_weekend-booking_rerun2.mp3` @ **02:08** · both verified by listening
+
+Asked for the clinic's street address, the agent answers:
+
+> "Our address is 1234 Recovery Way, Suite 200, Austin."
+
+On a later call it books an appointment and confirms it three separate times as:
+
+> "Monday, August 24th at 1 p.m. with Kelly Noble, M.D. in Nashville."
+
+**Why it matters:** a patient who asks where to go is told Austin and then booked with a
+provider in Nashville, with no explanation that these are different locations and no
+address given for the second. If the practice genuinely has multiple sites, the agent
+never says so; if it does not, one of the two answers is wrong. Either way the patient
+has no reliable way to know which building to walk into. Note this only surfaces across
+calls: each answer sounds authoritative on its own, and the contradiction is invisible
+to anyone testing a single conversation.
+
+---
+
+## BUG-09 — Full confirmation block spoken twice in a single turn
 **Severity: Low** · `transcripts/09_ambiguous-date.txt` @ 02:51, `transcripts/11_vague-request.txt` @ 02:48
 
 The complete booking confirmation is delivered, then immediately repeated in expanded form
