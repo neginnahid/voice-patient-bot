@@ -41,8 +41,8 @@ and a framework would have added an abstraction to explain and debug on a one-da
 **Dual-channel recording as the source of truth.** Asking Twilio for
 `recording_channels="dual"` puts our caller on one channel and the agent under test on
 the other. Speaker attribution therefore becomes a property of the audio file rather than
-an inference from a diarisation model, so every timestamp in the bug report can be
-trusted and checked against the audio. It also satisfies the MP3 deliverable with no
+an inference from a diarisation model, so every quote in the bug report can be checked
+against the audio it came from. It also satisfies the MP3 deliverable with no
 post-processing.
 
 **Turn-taking was tuned, not defaulted.** Two voice models talking to each other is

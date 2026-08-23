@@ -11,7 +11,7 @@ Built for the Pretty Good AI engineering challenge. All calls target the assessm
 line, **+1-805-439-8008**, which is hardcoded as the default in `src/config.py`.
 
 - **[ARCHITECTURE.md](ARCHITECTURE.md)** — how it works and why it is built this way
-- **[BUG_REPORT.md](BUG_REPORT.md)** — 9 issues found across 13 calls
+- **[BUG_REPORT.md](BUG_REPORT.md)** — 8 issues found across 13 calls
 - **[transcripts/](transcripts/)** — timestamped, speaker-labelled, one file per call
 - **[recordings/](recordings/)** — dual-channel MP3, one file per call
 

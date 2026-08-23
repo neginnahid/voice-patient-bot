@@ -44,6 +44,15 @@ class CallLog:
     turns: list[Turn] = field(default_factory=list)
     call_sid: str | None = None
 
+    def start_clock(self) -> None:
+        """Reset t=0 to the moment the media stream opens.
+
+        Twilio starts its recording when the call is answered, but this object is
+        created when we place the call - so without this, transcript timestamps run
+        20-25s ahead of the same moment in the MP3.
+        """
+        self.started_at = time.time()
+
     def add(self, speaker: str, text: str) -> None:
         text = (text or "").strip()
         if not text:
@@ -109,6 +118,7 @@ async def run(twilio_ws, scenario: Scenario, log: CallLog) -> None:
                 event = msg.get("event")
 
                 if event == "start":
+                    log.start_clock()
                     state["stream_sid"] = msg["start"]["streamSid"]
                     log.call_sid = msg["start"].get("callSid")
                 elif event == "media":
